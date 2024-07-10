@@ -1,0 +1,73 @@
+.propertie-container {
+    width: 40%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .propertie-container h3 {
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .propertie-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .propertie-container li {
+    margin-bottom: 8px;
+  }
+  
+  .propertie-container h4 {
+    margin: 0;
+    color: #555;
+  }
+
+  .prop-but {
+    width: 35%;
+  }
+
+ .info-photo {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ #prop-photo {
+    width: 40%;
+  }
+  
+  .adress {
+    font-size: 34px;
+  }
+
+  .buttons {
+    display: flex;
+  }
+
+  .custom-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: inherit;
+    color: black;
+    width: 50px;
+    padding: 0;
+  }
+
+  .custom-button:hover {
+    background-color: white;
+    color: red;
+  }
+
+  .heart-icon {
+    font-size: 30px;
+  }
+
+  .custom-button:hover .heart-icon,
+.custom-button:active .heart-icon {
+  color: red; /* La hover și click, inima devine roșie */
+}

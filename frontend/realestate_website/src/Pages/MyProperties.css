@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    margin: auto;
+}
+
+/* Properties.css */
+
+/* Adaugă stiluri pentru containerul de proprietăți */
+.properties-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  /* Adaugă stiluri pentru fiecare proprietate */
+  .propertie {
+    width: 45%; /* Ajustează lățimea fiecărei proprietăți pentru a încăpea două pe linie */
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+

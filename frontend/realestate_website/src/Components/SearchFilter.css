@@ -1,0 +1,35 @@
+.filtreu-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .filtreu-formular {
+    flex: 1; /* Să ocupe spațiul disponibil pe linie */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Spațiu între filtre */
+  }
+  
+  .filtreu-grup {
+    flex: 1; /* Să ocupe spațiul disponibil pe linie */
+    max-width: 200px; /* Lățimea maximă pentru un grup de filtru */
+  }
+  
+  .filtreu-butoane {
+    margin-top: 20px; /* Spațiu între filtre și butoane */
+  }
+  
+  /* Adaugă stil pentru butoane, în funcție de preferințele tale */
+  button {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
